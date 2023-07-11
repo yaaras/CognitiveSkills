@@ -6,6 +6,6 @@
 3. [ ] gordon @mark
 
 ## Model
-1. [ ] fix softmax for comparing distractor and label
+1. [ ] fix softmax for comparing distractor and label @itay
 2. [ ] load all checkpoints
 3. [ ] load seeds 0-6

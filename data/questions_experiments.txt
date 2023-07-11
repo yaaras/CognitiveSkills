@@ -1,0 +1,24 @@
+The banker that the barber praised climbed the mountain just outside of town before it snowed.###? climbed the mountain.###? praised &.###The banker###The barber###You###Sue
+The dancer that the reporter phoned cooked the pork chops in their own juices on New Year's Eve.###? cooked the pork chops.###? phoned &.###The dancer###The reporter###You###Ann
+The architect that the fireman liked dominated the conversation while the game was on television.###? dominated the conversation.###? liked &.###The architect###The fireman###You###Wes
+The waiter that the broker despised drove the sports car home from work that evening.###? drove the sports car home.###? despised &.###The waiter###The broker###You###Jan
+The detective that the secretary disliked clipped the coupons out with the dull scissors.###? clipped the coupons out.###? disliked &.###The detective###The secretary###You###Ted
+The judge that the doctor ignored watched the special about Colombian drug dealers on the nightly news.###? watched the special about Colombian drug dealers.###? ignored &.###The judge###The doctor###You###Tom
+The robber that the mailman insulted read the newspaper article about the fire.###? read the newspaper article.###? insulted &.###The robber###The mailman###You###Sam
+The governor that the comedian admired answered the telephone in the fancy restaurant.###? answered the telephone.###? admired &.###The governor###The comedian###You###Kay
+The actor that the director thanked worked in many hit movies before 1990.###? worked in many hit movies.###? thanked &.###The actor###The director###You###Fay
+The poet that the painter inspired wrote an autobiography after their friendship became well known.###? wrote an autobiography.###? inspired &.###The poet###The painter###You###Ben
+The chef that the cashier distrusted called for help after the restaurant closed.###? called for help.###? distrusted &.###The chef###The cashier###You###Joe
+The aunt that the child amused made paper dolls out of the newspaper.###? made paper dolls.###? amused &.###The aunt###The child###You###Kim
+The violinist that the conductor complimented performed at Carnegie Hall for two weeks.###? performed at Carnegie Hall.###? complimented &.###The violinist###The conductor###You###Max
+The teacher that the student questioned wrote a long science fiction novel during the summer vacation.###? wrote a science fiction novel.###? questioned &.###The teacher###The student###You###Bob
+The editor that the author recommended changed jobs after a new merger was announced.###? changed jobs.###? recommended &.###The editor###The author###You###Jen
+The tailor that the customer described worked in a small building near the bus station.###? worked in a small building.###? described &.###The tailor###The customer###You###Pam
+The admiral that the general advised reminisced nostalgically before the trip got underway.###? reminisced nostalgically.###? advised &.###The admiral###The general###You###Jim
+The coach that the referee criticized talked publicly about the incident after the game.###? talked publicly about the incident.###? criticized &.###The coach###The referee###You###Eve
+The lawyer that the client interviewed had a very small office.###? had a small office.###? interviewed &.###The lawyer###The client###You###Ken
+The plumber that the electrician called drove a grey truck.###? drove a grey truck.###? called &.###The plumber###The electrician###You###Joy
+The salesman that the accountant contacted spoke very quickly.###? spoke very quickly.###? contacted &.###The salesman###The accountant###You###Jon
+The clown that the magician entertained was a star.###? was a star.###? entertained &.###The clown###The magician###You###Meg
+The clerk that the traveler helped worked in a large foreign bank.###? worked in a large foreign bank.###? helped &.###The clerk###The traveler###You###Lou
+The gardener that the homeowner envied was very friendly.###? was very friendly.###? envied &.###The gardener###The homeowner###You###Liz

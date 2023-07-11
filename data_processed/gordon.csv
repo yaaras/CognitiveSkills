@@ -1,0 +1,289 @@
+prompt,label,distractor
+"The banker that the barber praised climbed the mountain just outside of town before it snowed. Therefore, the [MASK] climbed the mountain.",banker,barber
+"The banker that you praised climbed the mountain just outside of town before it snowed. Therefore, the [MASK] climbed the mountain.",banker,you
+"The banker that Sue praised climbed the mountain just outside of town before it snowed. Therefore, the [MASK] climbed the mountain.",banker,Sue
+"The banker that the barber praised climbed the mountain just outside of town before it snowed. Therefore, the [MASK] praised the banker.",barber,banker
+"The banker that you praised climbed the mountain just outside of town before it snowed. Therefore, [MASK] praised the banker.",you,banker
+"The banker that Sue praised climbed the mountain just outside of town before it snowed. Therefore, [MASK] praised the banker.",Sue,banker
+"The banker that praised the barber climbed the mountain just outside of town before it snowed. Therefore, the [MASK] climbed the mountain.",banker,barber
+"The banker that praised you climbed the mountain just outside of town before it snowed. Therefore, the [MASK] climbed the mountain.",banker,you
+"The banker that praised Sue climbed the mountain just outside of town before it snowed. Therefore, the [MASK] climbed the mountain.",banker,Sue
+"The banker that praised the barber climbed the mountain just outside of town before it snowed. Therefore, the [MASK] praised the barber.",banker,barber
+"The banker that praised you climbed the mountain just outside of town before it snowed. Therefore, the [MASK] praised you.",banker,you
+"The banker that praised Sue climbed the mountain just outside of town before it snowed. Therefore, the [MASK] praised Sue.",banker,Sue
+"The dancer that the reporter phoned cooked the pork chops in their own juices on New Year's Eve. Therefore, the [MASK] cooked the pork chops.",dancer,reporter
+"The dancer that you phoned cooked the pork chops in their own juices on New Year's Eve. Therefore, the [MASK] cooked the pork chops.",dancer,you
+"The dancer that Ann phoned cooked the pork chops in their own juices on New Year's Eve. Therefore, the [MASK] cooked the pork chops.",dancer,Ann
+"The dancer that the reporter phoned cooked the pork chops in their own juices on New Year's Eve. Therefore, the [MASK] phoned the dancer.",reporter,dancer
+"The dancer that you phoned cooked the pork chops in their own juices on New Year's Eve. Therefore, [MASK] phoned the dancer.",you,dancer
+"The dancer that Ann phoned cooked the pork chops in their own juices on New Year's Eve. Therefore, [MASK] phoned the dancer.",Ann,dancer
+"The dancer that phoned the reporter cooked the pork chops in their own juices on New Year's Eve. Therefore, the [MASK] cooked the pork chops.",dancer,reporter
+"The dancer that phoned you cooked the pork chops in their own juices on New Year's Eve. Therefore, the [MASK] cooked the pork chops.",dancer,you
+"The dancer that phoned Ann cooked the pork chops in their own juices on New Year's Eve. Therefore, the [MASK] cooked the pork chops.",dancer,Ann
+"The dancer that phoned the reporter cooked the pork chops in their own juices on New Year's Eve. Therefore, the [MASK] phoned the reporter.",dancer,reporter
+"The dancer that phoned you cooked the pork chops in their own juices on New Year's Eve. Therefore, the [MASK] phoned you.",dancer,you
+"The dancer that phoned Ann cooked the pork chops in their own juices on New Year's Eve. Therefore, the [MASK] phoned Ann.",dancer,Ann
+"The architect that the fireman liked dominated the conversation while the game was on television. Therefore, the [MASK] dominated the conversation.",architect,fireman
+"The architect that you liked dominated the conversation while the game was on television. Therefore, the [MASK] dominated the conversation.",architect,you
+"The architect that Wes liked dominated the conversation while the game was on television. Therefore, the [MASK] dominated the conversation.",architect,Wes
+"The architect that the fireman liked dominated the conversation while the game was on television. Therefore, the [MASK] liked the architect.",fireman,architect
+"The architect that you liked dominated the conversation while the game was on television. Therefore, [MASK] liked the architect.",you,architect
+"The architect that Wes liked dominated the conversation while the game was on television. Therefore, [MASK] liked the architect.",Wes,architect
+"The architect that liked the fireman dominated the conversation while the game was on television. Therefore, the [MASK] dominated the conversation.",architect,fireman
+"The architect that liked you dominated the conversation while the game was on television. Therefore, the [MASK] dominated the conversation.",architect,you
+"The architect that liked Wes dominated the conversation while the game was on television. Therefore, the [MASK] dominated the conversation.",architect,Wes
+"The architect that liked the fireman dominated the conversation while the game was on television. Therefore, the [MASK] liked the fireman.",architect,fireman
+"The architect that liked you dominated the conversation while the game was on television. Therefore, the [MASK] liked you.",architect,you
+"The architect that liked Wes dominated the conversation while the game was on television. Therefore, the [MASK] liked Wes.",architect,Wes
+"The waiter that the broker despised drove the sports car home from work that evening. Therefore, the [MASK] drove the sports car home.",waiter,broker
+"The waiter that you despised drove the sports car home from work that evening. Therefore, the [MASK] drove the sports car home.",waiter,you
+"The waiter that Jan despised drove the sports car home from work that evening. Therefore, the [MASK] drove the sports car home.",waiter,Jan
+"The waiter that the broker despised drove the sports car home from work that evening. Therefore, the [MASK] despised the waiter.",broker,waiter
+"The waiter that you despised drove the sports car home from work that evening. Therefore, [MASK] despised the waiter.",you,waiter
+"The waiter that Jan despised drove the sports car home from work that evening. Therefore, [MASK] despised the waiter.",Jan,waiter
+"The waiter that despised the broker drove the sports car home from work that evening. Therefore, the [MASK] drove the sports car home.",waiter,broker
+"The waiter that despised you drove the sports car home from work that evening. Therefore, the [MASK] drove the sports car home.",waiter,you
+"The waiter that despised Jan drove the sports car home from work that evening. Therefore, the [MASK] drove the sports car home.",waiter,Jan
+"The waiter that despised the broker drove the sports car home from work that evening. Therefore, the [MASK] despised the broker.",waiter,broker
+"The waiter that despised you drove the sports car home from work that evening. Therefore, the [MASK] despised you.",waiter,you
+"The waiter that despised Jan drove the sports car home from work that evening. Therefore, the [MASK] despised Jan.",waiter,Jan
+"The detective that the secretary disliked clipped the coupons out with the dull scissors. Therefore, the [MASK] clipped the coupons out.",detective,secretary
+"The detective that you disliked clipped the coupons out with the dull scissors. Therefore, the [MASK] clipped the coupons out.",detective,you
+"The detective that Ted disliked clipped the coupons out with the dull scissors. Therefore, the [MASK] clipped the coupons out.",detective,Ted
+"The detective that the secretary disliked clipped the coupons out with the dull scissors. Therefore, the [MASK] disliked the detective.",secretary,detective
+"The detective that you disliked clipped the coupons out with the dull scissors. Therefore, [MASK] disliked the detective.",you,detective
+"The detective that Ted disliked clipped the coupons out with the dull scissors. Therefore, [MASK] disliked the detective.",Ted,detective
+"The detective that disliked the secretary clipped the coupons out with the dull scissors. Therefore, the [MASK] clipped the coupons out.",detective,secretary
+"The detective that disliked you clipped the coupons out with the dull scissors. Therefore, the [MASK] clipped the coupons out.",detective,you
+"The detective that disliked Ted clipped the coupons out with the dull scissors. Therefore, the [MASK] clipped the coupons out.",detective,Ted
+"The detective that disliked the secretary clipped the coupons out with the dull scissors. Therefore, the [MASK] disliked the secretary.",detective,secretary
+"The detective that disliked you clipped the coupons out with the dull scissors. Therefore, the [MASK] disliked you.",detective,you
+"The detective that disliked Ted clipped the coupons out with the dull scissors. Therefore, the [MASK] disliked Ted.",detective,Ted
+"The judge that the doctor ignored watched the special about Colombian drug dealers on the nightly news. Therefore, the [MASK] watched the special about Colombian drug dealers.",judge,doctor
+"The judge that you ignored watched the special about Colombian drug dealers on the nightly news. Therefore, the [MASK] watched the special about Colombian drug dealers.",judge,you
+"The judge that Tom ignored watched the special about Colombian drug dealers on the nightly news. Therefore, the [MASK] watched the special about Colombian drug dealers.",judge,Tom
+"The judge that the doctor ignored watched the special about Colombian drug dealers on the nightly news. Therefore, the [MASK] ignored the judge.",doctor,judge
+"The judge that you ignored watched the special about Colombian drug dealers on the nightly news. Therefore, [MASK] ignored the judge.",you,judge
+"The judge that Tom ignored watched the special about Colombian drug dealers on the nightly news. Therefore, [MASK] ignored the judge.",Tom,judge
+"The judge that ignored the doctor watched the special about Colombian drug dealers on the nightly news. Therefore, the [MASK] watched the special about Colombian drug dealers.",judge,doctor
+"The judge that ignored you watched the special about Colombian drug dealers on the nightly news. Therefore, the [MASK] watched the special about Colombian drug dealers.",judge,you
+"The judge that ignored Tom watched the special about Colombian drug dealers on the nightly news. Therefore, the [MASK] watched the special about Colombian drug dealers.",judge,Tom
+"The judge that ignored the doctor watched the special about Colombian drug dealers on the nightly news. Therefore, the [MASK] ignored the doctor.",judge,doctor
+"The judge that ignored you watched the special about Colombian drug dealers on the nightly news. Therefore, the [MASK] ignored you.",judge,you
+"The judge that ignored Tom watched the special about Colombian drug dealers on the nightly news. Therefore, the [MASK] ignored Tom.",judge,Tom
+"The robber that the mailman insulted read the newspaper article about the fire. Therefore, the [MASK] read the newspaper article.",robber,mailman
+"The robber that you insulted read the newspaper article about the fire. Therefore, the [MASK] read the newspaper article.",robber,you
+"The robber that Sam insulted read the newspaper article about the fire. Therefore, the [MASK] read the newspaper article.",robber,Sam
+"The robber that the mailman insulted read the newspaper article about the fire. Therefore, the [MASK] insulted the robber.",mailman,robber
+"The robber that you insulted read the newspaper article about the fire. Therefore, [MASK] insulted the robber.",you,robber
+"The robber that Sam insulted read the newspaper article about the fire. Therefore, [MASK] insulted the robber.",Sam,robber
+"The robber that insulted the mailman read the newspaper article about the fire. Therefore, the [MASK] read the newspaper article.",robber,mailman
+"The robber that insulted you read the newspaper article about the fire. Therefore, the [MASK] read the newspaper article.",robber,you
+"The robber that insulted Sam read the newspaper article about the fire. Therefore, the [MASK] read the newspaper article.",robber,Sam
+"The robber that insulted the mailman read the newspaper article about the fire. Therefore, the [MASK] insulted the mailman.",robber,mailman
+"The robber that insulted you read the newspaper article about the fire. Therefore, the [MASK] insulted you.",robber,you
+"The robber that insulted Sam read the newspaper article about the fire. Therefore, the [MASK] insulted Sam.",robber,Sam
+"The governor that the comedian admired answered the telephone in the fancy restaurant. Therefore, the [MASK] answered the telephone.",governor,comedian
+"The governor that you admired answered the telephone in the fancy restaurant. Therefore, the [MASK] answered the telephone.",governor,you
+"The governor that Kay admired answered the telephone in the fancy restaurant. Therefore, the [MASK] answered the telephone.",governor,Kay
+"The governor that the comedian admired answered the telephone in the fancy restaurant. Therefore, the [MASK] admired the governor.",comedian,governor
+"The governor that you admired answered the telephone in the fancy restaurant. Therefore, [MASK] admired the governor.",you,governor
+"The governor that Kay admired answered the telephone in the fancy restaurant. Therefore, [MASK] admired the governor.",Kay,governor
+"The governor that admired the comedian answered the telephone in the fancy restaurant. Therefore, the [MASK] answered the telephone.",governor,comedian
+"The governor that admired you answered the telephone in the fancy restaurant. Therefore, the [MASK] answered the telephone.",governor,you
+"The governor that admired Kay answered the telephone in the fancy restaurant. Therefore, the [MASK] answered the telephone.",governor,Kay
+"The governor that admired the comedian answered the telephone in the fancy restaurant. Therefore, the [MASK] admired the comedian.",governor,comedian
+"The governor that admired you answered the telephone in the fancy restaurant. Therefore, the [MASK] admired you.",governor,you
+"The governor that admired Kay answered the telephone in the fancy restaurant. Therefore, the [MASK] admired Kay.",governor,Kay
+"The actor that the director thanked worked in many hit movies before 1990. Therefore, the [MASK] worked in many hit movies.",actor,director
+"The actor that you thanked worked in many hit movies before 1990. Therefore, the [MASK] worked in many hit movies.",actor,you
+"The actor that Fay thanked worked in many hit movies before 1990. Therefore, the [MASK] worked in many hit movies.",actor,Fay
+"The actor that the director thanked worked in many hit movies before 1990. Therefore, the [MASK] thanked the actor.",director,actor
+"The actor that you thanked worked in many hit movies before 1990. Therefore, [MASK] thanked the actor.",you,actor
+"The actor that Fay thanked worked in many hit movies before 1990. Therefore, [MASK] thanked the actor.",Fay,actor
+"The actor that thanked the director worked in many hit movies before 1990. Therefore, the [MASK] worked in many hit movies.",actor,director
+"The actor that thanked you worked in many hit movies before 1990. Therefore, the [MASK] worked in many hit movies.",actor,you
+"The actor that thanked Fay worked in many hit movies before 1990. Therefore, the [MASK] worked in many hit movies.",actor,Fay
+"The actor that thanked the director worked in many hit movies before 1990. Therefore, the [MASK] thanked the director.",actor,director
+"The actor that thanked you worked in many hit movies before 1990. Therefore, the [MASK] thanked you.",actor,you
+"The actor that thanked Fay worked in many hit movies before 1990. Therefore, the [MASK] thanked Fay.",actor,Fay
+"The poet that the painter inspired wrote an autobiography after their friendship became well known. Therefore, the [MASK] wrote an autobiography.",poet,painter
+"The poet that you inspired wrote an autobiography after their friendship became well known. Therefore, the [MASK] wrote an autobiography.",poet,you
+"The poet that Ben inspired wrote an autobiography after their friendship became well known. Therefore, the [MASK] wrote an autobiography.",poet,Ben
+"The poet that the painter inspired wrote an autobiography after their friendship became well known. Therefore, the [MASK] inspired the poet.",painter,poet
+"The poet that you inspired wrote an autobiography after their friendship became well known. Therefore, [MASK] inspired the poet.",you,poet
+"The poet that Ben inspired wrote an autobiography after their friendship became well known. Therefore, [MASK] inspired the poet.",Ben,poet
+"The poet that inspired the painter wrote an autobiography after their friendship became well known. Therefore, the [MASK] wrote an autobiography.",poet,painter
+"The poet that inspired you wrote an autobiography after their friendship became well known. Therefore, the [MASK] wrote an autobiography.",poet,you
+"The poet that inspired Ben wrote an autobiography after their friendship became well known. Therefore, the [MASK] wrote an autobiography.",poet,Ben
+"The poet that inspired the painter wrote an autobiography after their friendship became well known. Therefore, the [MASK] inspired the painter.",poet,painter
+"The poet that inspired you wrote an autobiography after their friendship became well known. Therefore, the [MASK] inspired you.",poet,you
+"The poet that inspired Ben wrote an autobiography after their friendship became well known. Therefore, the [MASK] inspired Ben.",poet,Ben
+"The chef that the cashier distrusted called for help after the restaurant closed. Therefore, the [MASK] called for help.",chef,cashier
+"The chef that you distrusted called for help after the restaurant closed. Therefore, the [MASK] called for help.",chef,you
+"The chef that Joe distrusted called for help after the restaurant closed. Therefore, the [MASK] called for help.",chef,Joe
+"The chef that the cashier distrusted called for help after the restaurant closed. Therefore, the [MASK] distrusted the chef.",cashier,chef
+"The chef that you distrusted called for help after the restaurant closed. Therefore, [MASK] distrusted the chef.",you,chef
+"The chef that Joe distrusted called for help after the restaurant closed. Therefore, [MASK] distrusted the chef.",Joe,chef
+"The chef that distrusted the cashier called for help after the restaurant closed. Therefore, the [MASK] called for help.",chef,cashier
+"The chef that distrusted you called for help after the restaurant closed. Therefore, the [MASK] called for help.",chef,you
+"The chef that distrusted Joe called for help after the restaurant closed. Therefore, the [MASK] called for help.",chef,Joe
+"The chef that distrusted the cashier called for help after the restaurant closed. Therefore, the [MASK] distrusted the cashier.",chef,cashier
+"The chef that distrusted you called for help after the restaurant closed. Therefore, the [MASK] distrusted you.",chef,you
+"The chef that distrusted Joe called for help after the restaurant closed. Therefore, the [MASK] distrusted Joe.",chef,Joe
+"The aunt that the child amused made paper dolls out of the newspaper. Therefore, the [MASK] made paper dolls.",aunt,child
+"The aunt that you amused made paper dolls out of the newspaper. Therefore, the [MASK] made paper dolls.",aunt,you
+"The aunt that Kim amused made paper dolls out of the newspaper. Therefore, the [MASK] made paper dolls.",aunt,Kim
+"The aunt that the child amused made paper dolls out of the newspaper. Therefore, the [MASK] amused the aunt.",child,aunt
+"The aunt that you amused made paper dolls out of the newspaper. Therefore, [MASK] amused the aunt.",you,aunt
+"The aunt that Kim amused made paper dolls out of the newspaper. Therefore, [MASK] amused the aunt.",Kim,aunt
+"The aunt that amused the child made paper dolls out of the newspaper. Therefore, the [MASK] made paper dolls.",aunt,child
+"The aunt that amused you made paper dolls out of the newspaper. Therefore, the [MASK] made paper dolls.",aunt,you
+"The aunt that amused Kim made paper dolls out of the newspaper. Therefore, the [MASK] made paper dolls.",aunt,Kim
+"The aunt that amused the child made paper dolls out of the newspaper. Therefore, the [MASK] amused the child.",aunt,child
+"The aunt that amused you made paper dolls out of the newspaper. Therefore, the [MASK] amused you.",aunt,you
+"The aunt that amused Kim made paper dolls out of the newspaper. Therefore, the [MASK] amused Kim.",aunt,Kim
+"The violinist that the conductor complimented performed at Carnegie Hall for two weeks. Therefore, the [MASK] performed at Carnegie Hall.",violinist,conductor
+"The violinist that you complimented performed at Carnegie Hall for two weeks. Therefore, the [MASK] performed at Carnegie Hall.",violinist,you
+"The violinist that Max complimented performed at Carnegie Hall for two weeks. Therefore, the [MASK] performed at Carnegie Hall.",violinist,Max
+"The violinist that the conductor complimented performed at Carnegie Hall for two weeks. Therefore, the [MASK] complimented the violinist.",conductor,violinist
+"The violinist that you complimented performed at Carnegie Hall for two weeks. Therefore, [MASK] complimented the violinist.",you,violinist
+"The violinist that Max complimented performed at Carnegie Hall for two weeks. Therefore, [MASK] complimented the violinist.",Max,violinist
+"The violinist that complimented the conductor performed at Carnegie Hall for two weeks. Therefore, the [MASK] performed at Carnegie Hall.",violinist,conductor
+"The violinist that complimented you performed at Carnegie Hall for two weeks. Therefore, the [MASK] performed at Carnegie Hall.",violinist,you
+"The violinist that complimented Max performed at Carnegie Hall for two weeks. Therefore, the [MASK] performed at Carnegie Hall.",violinist,Max
+"The violinist that complimented the conductor performed at Carnegie Hall for two weeks. Therefore, the [MASK] complimented the conductor.",violinist,conductor
+"The violinist that complimented you performed at Carnegie Hall for two weeks. Therefore, the [MASK] complimented you.",violinist,you
+"The violinist that complimented Max performed at Carnegie Hall for two weeks. Therefore, the [MASK] complimented Max.",violinist,Max
+"The teacher that the student questioned wrote a long science fiction novel during the summer vacation. Therefore, the [MASK] wrote a science fiction novel.",teacher,student
+"The teacher that you questioned wrote a long science fiction novel during the summer vacation. Therefore, the [MASK] wrote a science fiction novel.",teacher,you
+"The teacher that Bob questioned wrote a long science fiction novel during the summer vacation. Therefore, the [MASK] wrote a science fiction novel.",teacher,Bob
+"The teacher that the student questioned wrote a long science fiction novel during the summer vacation. Therefore, the [MASK] questioned the teacher.",student,teacher
+"The teacher that you questioned wrote a long science fiction novel during the summer vacation. Therefore, [MASK] questioned the teacher.",you,teacher
+"The teacher that Bob questioned wrote a long science fiction novel during the summer vacation. Therefore, [MASK] questioned the teacher.",Bob,teacher
+"The teacher that questioned the student wrote a long science fiction novel during the summer vacation. Therefore, the [MASK] wrote a science fiction novel.",teacher,student
+"The teacher that questioned you wrote a long science fiction novel during the summer vacation. Therefore, the [MASK] wrote a science fiction novel.",teacher,you
+"The teacher that questioned Bob wrote a long science fiction novel during the summer vacation. Therefore, the [MASK] wrote a science fiction novel.",teacher,Bob
+"The teacher that questioned the student wrote a long science fiction novel during the summer vacation. Therefore, the [MASK] questioned the student.",teacher,student
+"The teacher that questioned you wrote a long science fiction novel during the summer vacation. Therefore, the [MASK] questioned you.",teacher,you
+"The teacher that questioned Bob wrote a long science fiction novel during the summer vacation. Therefore, the [MASK] questioned Bob.",teacher,Bob
+"The editor that the author recommended changed jobs after a new merger was announced. Therefore, the [MASK] changed jobs.",editor,author
+"The editor that you recommended changed jobs after a new merger was announced. Therefore, the [MASK] changed jobs.",editor,you
+"The editor that Jen recommended changed jobs after a new merger was announced. Therefore, the [MASK] changed jobs.",editor,Jen
+"The editor that the author recommended changed jobs after a new merger was announced. Therefore, the [MASK] recommended the editor.",author,editor
+"The editor that you recommended changed jobs after a new merger was announced. Therefore, [MASK] recommended the editor.",you,editor
+"The editor that Jen recommended changed jobs after a new merger was announced. Therefore, [MASK] recommended the editor.",Jen,editor
+"The editor that recommended the author changed jobs after a new merger was announced. Therefore, the [MASK] changed jobs.",editor,author
+"The editor that recommended you changed jobs after a new merger was announced. Therefore, the [MASK] changed jobs.",editor,you
+"The editor that recommended Jen changed jobs after a new merger was announced. Therefore, the [MASK] changed jobs.",editor,Jen
+"The editor that recommended the author changed jobs after a new merger was announced. Therefore, the [MASK] recommended the author.",editor,author
+"The editor that recommended you changed jobs after a new merger was announced. Therefore, the [MASK] recommended you.",editor,you
+"The editor that recommended Jen changed jobs after a new merger was announced. Therefore, the [MASK] recommended Jen.",editor,Jen
+"The tailor that the customer described worked in a small building near the bus station. Therefore, the [MASK] worked in a small building.",tailor,customer
+"The tailor that you described worked in a small building near the bus station. Therefore, the [MASK] worked in a small building.",tailor,you
+"The tailor that Pam described worked in a small building near the bus station. Therefore, the [MASK] worked in a small building.",tailor,Pam
+"The tailor that the customer described worked in a small building near the bus station. Therefore, the [MASK] described the tailor.",customer,tailor
+"The tailor that you described worked in a small building near the bus station. Therefore, [MASK] described the tailor.",you,tailor
+"The tailor that Pam described worked in a small building near the bus station. Therefore, [MASK] described the tailor.",Pam,tailor
+"The tailor that described the customer worked in a small building near the bus station. Therefore, the [MASK] worked in a small building.",tailor,customer
+"The tailor that described you worked in a small building near the bus station. Therefore, the [MASK] worked in a small building.",tailor,you
+"The tailor that described Pam worked in a small building near the bus station. Therefore, the [MASK] worked in a small building.",tailor,Pam
+"The tailor that described the customer worked in a small building near the bus station. Therefore, the [MASK] described the customer.",tailor,customer
+"The tailor that described you worked in a small building near the bus station. Therefore, the [MASK] described you.",tailor,you
+"The tailor that described Pam worked in a small building near the bus station. Therefore, the [MASK] described Pam.",tailor,Pam
+"The admiral that the general advised reminisced nostalgically before the trip got underway. Therefore, the [MASK] reminisced nostalgically.",admiral,general
+"The admiral that you advised reminisced nostalgically before the trip got underway. Therefore, the [MASK] reminisced nostalgically.",admiral,you
+"The admiral that Jim advised reminisced nostalgically before the trip got underway. Therefore, the [MASK] reminisced nostalgically.",admiral,Jim
+"The admiral that the general advised reminisced nostalgically before the trip got underway. Therefore, the [MASK] advised the admiral.",general,admiral
+"The admiral that you advised reminisced nostalgically before the trip got underway. Therefore, [MASK] advised the admiral.",you,admiral
+"The admiral that Jim advised reminisced nostalgically before the trip got underway. Therefore, [MASK] advised the admiral.",Jim,admiral
+"The admiral that advised the general reminisced nostalgically before the trip got underway. Therefore, the [MASK] reminisced nostalgically.",admiral,general
+"The admiral that advised you reminisced nostalgically before the trip got underway. Therefore, the [MASK] reminisced nostalgically.",admiral,you
+"The admiral that advised Jim reminisced nostalgically before the trip got underway. Therefore, the [MASK] reminisced nostalgically.",admiral,Jim
+"The admiral that advised the general reminisced nostalgically before the trip got underway. Therefore, the [MASK] advised the general.",admiral,general
+"The admiral that advised you reminisced nostalgically before the trip got underway. Therefore, the [MASK] advised you.",admiral,you
+"The admiral that advised Jim reminisced nostalgically before the trip got underway. Therefore, the [MASK] advised Jim.",admiral,Jim
+"The coach that the referee criticized talked publicly about the incident after the game. Therefore, the [MASK] talked publicly about the incident.",coach,referee
+"The coach that you criticized talked publicly about the incident after the game. Therefore, the [MASK] talked publicly about the incident.",coach,you
+"The coach that Eve criticized talked publicly about the incident after the game. Therefore, the [MASK] talked publicly about the incident.",coach,Eve
+"The coach that the referee criticized talked publicly about the incident after the game. Therefore, the [MASK] criticized the coach.",referee,coach
+"The coach that you criticized talked publicly about the incident after the game. Therefore, [MASK] criticized the coach.",you,coach
+"The coach that Eve criticized talked publicly about the incident after the game. Therefore, [MASK] criticized the coach.",Eve,coach
+"The coach that criticized the referee talked publicly about the incident after the game. Therefore, the [MASK] talked publicly about the incident.",coach,referee
+"The coach that criticized you talked publicly about the incident after the game. Therefore, the [MASK] talked publicly about the incident.",coach,you
+"The coach that criticized Eve talked publicly about the incident after the game. Therefore, the [MASK] talked publicly about the incident.",coach,Eve
+"The coach that criticized the referee talked publicly about the incident after the game. Therefore, the [MASK] criticized the referee.",coach,referee
+"The coach that criticized you talked publicly about the incident after the game. Therefore, the [MASK] criticized you.",coach,you
+"The coach that criticized Eve talked publicly about the incident after the game. Therefore, the [MASK] criticized Eve.",coach,Eve
+"The lawyer that the client interviewed had a very small office. Therefore, the [MASK] had a small office.",lawyer,client
+"The lawyer that you interviewed had a very small office. Therefore, the [MASK] had a small office.",lawyer,you
+"The lawyer that Ken interviewed had a very small office. Therefore, the [MASK] had a small office.",lawyer,Ken
+"The lawyer that the client interviewed had a very small office. Therefore, the [MASK] interviewed the lawyer.",client,lawyer
+"The lawyer that you interviewed had a very small office. Therefore, [MASK] interviewed the lawyer.",you,lawyer
+"The lawyer that Ken interviewed had a very small office. Therefore, [MASK] interviewed the lawyer.",Ken,lawyer
+"The lawyer that interviewed the client had a very small office. Therefore, the [MASK] had a small office.",lawyer,client
+"The lawyer that interviewed you had a very small office. Therefore, the [MASK] had a small office.",lawyer,you
+"The lawyer that interviewed Ken had a very small office. Therefore, the [MASK] had a small office.",lawyer,Ken
+"The lawyer that interviewed the client had a very small office. Therefore, the [MASK] interviewed the client.",lawyer,client
+"The lawyer that interviewed you had a very small office. Therefore, the [MASK] interviewed you.",lawyer,you
+"The lawyer that interviewed Ken had a very small office. Therefore, the [MASK] interviewed Ken.",lawyer,Ken
+"The plumber that the electrician called drove a grey truck. Therefore, the [MASK] drove a grey truck.",plumber,electrician
+"The plumber that you called drove a grey truck. Therefore, the [MASK] drove a grey truck.",plumber,you
+"The plumber that Joy called drove a grey truck. Therefore, the [MASK] drove a grey truck.",plumber,Joy
+"The plumber that the electrician called drove a grey truck. Therefore, the [MASK] called the plumber.",electrician,plumber
+"The plumber that you called drove a grey truck. Therefore, [MASK] called the plumber.",you,plumber
+"The plumber that Joy called drove a grey truck. Therefore, [MASK] called the plumber.",Joy,plumber
+"The plumber that called the electrician drove a grey truck. Therefore, the [MASK] drove a grey truck.",plumber,electrician
+"The plumber that called you drove a grey truck. Therefore, the [MASK] drove a grey truck.",plumber,you
+"The plumber that called Joy drove a grey truck. Therefore, the [MASK] drove a grey truck.",plumber,Joy
+"The plumber that called the electrician drove a grey truck. Therefore, the [MASK] called the electrician.",plumber,electrician
+"The plumber that called you drove a grey truck. Therefore, the [MASK] called you.",plumber,you
+"The plumber that called Joy drove a grey truck. Therefore, the [MASK] called Joy.",plumber,Joy
+"The salesman that the accountant contacted spoke very quickly. Therefore, the [MASK] spoke very quickly.",salesman,accountant
+"The salesman that you contacted spoke very quickly. Therefore, the [MASK] spoke very quickly.",salesman,you
+"The salesman that Jon contacted spoke very quickly. Therefore, the [MASK] spoke very quickly.",salesman,Jon
+"The salesman that the accountant contacted spoke very quickly. Therefore, the [MASK] contacted the salesman.",accountant,salesman
+"The salesman that you contacted spoke very quickly. Therefore, [MASK] contacted the salesman.",you,salesman
+"The salesman that Jon contacted spoke very quickly. Therefore, [MASK] contacted the salesman.",Jon,salesman
+"The salesman that contacted the accountant spoke very quickly. Therefore, the [MASK] spoke very quickly.",salesman,accountant
+"The salesman that contacted you spoke very quickly. Therefore, the [MASK] spoke very quickly.",salesman,you
+"The salesman that contacted Jon spoke very quickly. Therefore, the [MASK] spoke very quickly.",salesman,Jon
+"The salesman that contacted the accountant spoke very quickly. Therefore, the [MASK] contacted the accountant.",salesman,accountant
+"The salesman that contacted you spoke very quickly. Therefore, the [MASK] contacted you.",salesman,you
+"The salesman that contacted Jon spoke very quickly. Therefore, the [MASK] contacted Jon.",salesman,Jon
+"The clown that the magician entertained was a star. Therefore, the [MASK] was a star.",clown,magician
+"The clown that you entertained was a star. Therefore, the [MASK] was a star.",clown,you
+"The clown that Meg entertained was a star. Therefore, the [MASK] was a star.",clown,Meg
+"The clown that the magician entertained was a star. Therefore, the [MASK] entertained the clown.",magician,clown
+"The clown that you entertained was a star. Therefore, [MASK] entertained the clown.",you,clown
+"The clown that Meg entertained was a star. Therefore, [MASK] entertained the clown.",Meg,clown
+"The clown that entertained the magician was a star. Therefore, the [MASK] was a star.",clown,magician
+"The clown that entertained you was a star. Therefore, the [MASK] was a star.",clown,you
+"The clown that entertained Meg was a star. Therefore, the [MASK] was a star.",clown,Meg
+"The clown that entertained the magician was a star. Therefore, the [MASK] entertained the magician.",clown,magician
+"The clown that entertained you was a star. Therefore, the [MASK] entertained you.",clown,you
+"The clown that entertained Meg was a star. Therefore, the [MASK] entertained Meg.",clown,Meg
+"The clerk that the traveler helped worked in a large foreign bank. Therefore, the [MASK] worked in a large foreign bank.",clerk,traveler
+"The clerk that you helped worked in a large foreign bank. Therefore, the [MASK] worked in a large foreign bank.",clerk,you
+"The clerk that Lou helped worked in a large foreign bank. Therefore, the [MASK] worked in a large foreign bank.",clerk,Lou
+"The clerk that the traveler helped worked in a large foreign bank. Therefore, the [MASK] helped the clerk.",traveler,clerk
+"The clerk that you helped worked in a large foreign bank. Therefore, [MASK] helped the clerk.",you,clerk
+"The clerk that Lou helped worked in a large foreign bank. Therefore, [MASK] helped the clerk.",Lou,clerk
+"The clerk that helped the traveler worked in a large foreign bank. Therefore, the [MASK] worked in a large foreign bank.",clerk,traveler
+"The clerk that helped you worked in a large foreign bank. Therefore, the [MASK] worked in a large foreign bank.",clerk,you
+"The clerk that helped Lou worked in a large foreign bank. Therefore, the [MASK] worked in a large foreign bank.",clerk,Lou
+"The clerk that helped the traveler worked in a large foreign bank. Therefore, the [MASK] helped the traveler.",clerk,traveler
+"The clerk that helped you worked in a large foreign bank. Therefore, the [MASK] helped you.",clerk,you
+"The clerk that helped Lou worked in a large foreign bank. Therefore, the [MASK] helped Lou.",clerk,Lou
+"The gardener that the homeowner envied was very friendly. Therefore, the [MASK] was very friendly.",gardener,homeowner
+"The gardener that you envied was very friendly. Therefore, the [MASK] was very friendly.",gardener,you
+"The gardener that Liz envied was very friendly. Therefore, the [MASK] was very friendly.",gardener,Liz
+"The gardener that the homeowner envied was very friendly. Therefore, the [MASK] envied the gardener.",homeowner,gardener
+"The gardener that you envied was very friendly. Therefore, [MASK] envied the gardener.",you,gardener
+"The gardener that Liz envied was very friendly. Therefore, [MASK] envied the gardener.",Liz,gardener
+"The gardener that envied the homeowner was very friendly. Therefore, the [MASK] was very friendly.",gardener,homeowner
+"The gardener that envied you was very friendly. Therefore, the [MASK] was very friendly.",gardener,you
+"The gardener that envied Liz was very friendly. Therefore, the [MASK] was very friendly.",gardener,Liz
+"The gardener that envied the homeowner was very friendly. Therefore, the [MASK] envied the homeowner.",gardener,homeowner
+"The gardener that envied you was very friendly. Therefore, the [MASK] envied you.",gardener,you
+"The gardener that envied Liz was very friendly. Therefore, the [MASK] envied Liz.",gardener,Liz

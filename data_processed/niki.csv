@@ -51,10 +51,10 @@ prompt,label,distractor,length,plural_match
 "The ambassadors appreciated the interpreters that the representatives supported despite the expected difficulties. Therefore, the representatives supported the [MASK]",interpreters,ambassadors,short,match
 "The ambassador appreciated the interpreters that last week the moderate representatives at the conference supported despite the expected difficulties. Therefore, the representatives supported the [MASK]",interpreters,ambassador,long,mismatch
 "The ambassadors appreciated the interpreters that last week the moderate representatives at the conference supported despite the expected difficulties. Therefore, the representatives supported the [MASK]",interpreters,ambassadors,long,match
-"The defense attorney accompanied the accused ones that the jurors disliked in light of the accumulated evidence. Therefore, the jurors disliked the <MASK>",accused,defense,short,mismatch
-"The defense attorneys accompanied the accused ones that the jurors disliked in light of the accumulated evidence. Therefore, the jurors disliked the <MASK>",accused,defense,short,match
-"The defense attorney accompanied the accused ones that two weeks ago the older and conservative jurors disliked in light of the accumulated evidence. Therefore, the jurors disliked the <MASK>",accused,defense,long,mismatch
-"The defense attorneys accompanied the accused ones that two weeks ago the older and conservative jurors disliked in light of the accumulated evidence. Therefore, the jurors disliked the <MASK>",accused,defense,long,match
+"The defense attorney accompanied the accused ones that the jurors disliked in light of the accumulated evidence. Therefore, the jurors disliked the [MASK]",accused,defense,short,mismatch
+"The defense attorneys accompanied the accused ones that the jurors disliked in light of the accumulated evidence. Therefore, the jurors disliked the [MASK]",accused,defense,short,match
+"The defense attorney accompanied the accused ones that two weeks ago the older and conservative jurors disliked in light of the accumulated evidence. Therefore, the jurors disliked the [MASK]",accused,defense,long,mismatch
+"The defense attorneys accompanied the accused ones that two weeks ago the older and conservative jurors disliked in light of the accumulated evidence. Therefore, the jurors disliked the [MASK]",accused,defense,long,match
 "The choreographer recognized the dancers that cast members mocked during the first audition. Therefore, the cast mocked the [MASK]",dancers,choreographer,short,mismatch
 "The choreographers recognized the dancers that cast members mocked during the first audition. Therefore, the cast mocked the [MASK]",dancers,choreographers,short,match
 "The choreographer recognized the dancers that last year's arrogant cast members mocked during the first audition. Therefore, the cast mocked the [MASK]",dancers,choreographer,long,mismatch
@@ -63,10 +63,10 @@ prompt,label,distractor,length,plural_match
 "The kings nurtured the princesses that the subjects rebelled against during the transition of power. Therefore, the subjects rebelled against the [MASK]",princesses,kings,short,match
 "The king nurtured the princesses that a year ago the poor and unfortunate subjects rebelled against during the transition of power. Therefore, the subjects rebelled against the [MASK]",princesses,king,long,mismatch
 "The kings nurtured the princesses that a year ago the poor and unfortunate subjects rebelled against during the transition of power. Therefore, the subjects rebelled against the [MASK]",princesses,kings,long,match
-"The tenant hosted the old women that the neighbors gossiped about at the last building meeting. Therefore, the neighbors gossiped about the <MASK>",old,tenant,short,mismatch
-"The tenants hosted the old women that the neighbors gossiped about at the last building meeting. Therefore, the neighbors gossiped about the <MASK>",old,tenants,short,match
-"The tenant hosted the old women that last week the rude neighbors gossiped about at the last building meeting. Therefore, the neighbors gossiped about the <MASK>",old,tenant,long,mismatch
-"The tenants hosted the old women that last week the rude neighbors gossiped about at the last building meeting. Therefore, the neighbors gossiped about the <MASK>",old,tenants,long,match
+"The tenant hosted the old women that the neighbors gossiped about at the last building meeting. Therefore, the neighbors gossiped about the [MASK]",old,tenant,short,mismatch
+"The tenants hosted the old women that the neighbors gossiped about at the last building meeting. Therefore, the neighbors gossiped about the [MASK]",old,tenants,short,match
+"The tenant hosted the old women that last week the rude neighbors gossiped about at the last building meeting. Therefore, the neighbors gossiped about the [MASK]",old,tenant,long,mismatch
+"The tenants hosted the old women that last week the rude neighbors gossiped about at the last building meeting. Therefore, the neighbors gossiped about the [MASK]",old,tenants,long,match
 "The dealer advertised the painters that the collectors looked at during the gallery visit. Therefore, the collectors looked at the [MASK]",painters,dealer,short,mismatch
 "The dealers advertised the painters that the collectors looked at during the gallery visit. Therefore, the collectors looked at the [MASK]",painters,dealers,short,match
 "The dealer advertised the painters that a month ago the rich and mysterious collectors looked at during the visit to the gallery. Therefore, the collectors looked at the [MASK]",painters,dealer,long,mismatch
@@ -95,14 +95,14 @@ prompt,label,distractor,length,plural_match
 "The inspectors overtook the drivers that the motorcyclists escaped while the traffic light was changing. Therefore, the bikers escaped from the [MASK]",drivers,inspectors,short,match
 "The inspector overtook the drivers who this morning the careless motorcyclists escaped while the traffic light was changing. Therefore, the bikers escaped from the [MASK]",drivers,inspector,long,mismatch
 "The inspectors overtook the drivers who this morning the careless motorcyclists escaped while the traffic light was changing. Therefore, the bikers escaped from the [MASK]",drivers,inspectors,long,match
-"The referee disqualified the tennis players that the spectators approached at the end of the opening match. Therefore, the spectators approached the <MASK>",tennis,referee,short,mismatch
-"The referees disqualified the tennis players that the spectators approached at the end of the opening match. Therefore, the spectators approached the <MASK>",tennis,referees,short,match
-"The referee disqualified the tennis players who a week ago the spectators from the upper stand approached at the end of the opening match. Therefore, the spectators approached the <MASK>",tennis,referee,long,mismatch
-"The referees disqualified the tennis players who a week ago the spectators from the upper stand approached at the end of the opening match. Therefore, the spectators approached the <MASK>",tennis,referees,long,match
-"The clerk found the bank managers that the robbers shot before the police arrived on the scene. Therefore, the robbers shot the <MASK>",bank,clerk,short,mismatch
-"The clerks found the bank managers that the robbers shot before the police arrived on the scene. Therefore, the robbers shot the <MASK>",bank,clerks,short,match
-"The clerk found the bank managers that this morning the armed and dangerous robbers shot before the police arrived at the scene. Therefore, the robbers shot the <MASK>",bank,clerk,long,mismatch
-"The clerks found the bank managers that this morning the armed and dangerous robbers shot before the police arrived at the scene. Therefore, the robbers shot the <MASK>",bank,clerks,long,match
+"The referee disqualified the tennis players that the spectators approached at the end of the opening match. Therefore, the spectators approached the [MASK]",tennis,referee,short,mismatch
+"The referees disqualified the tennis players that the spectators approached at the end of the opening match. Therefore, the spectators approached the [MASK]",tennis,referees,short,match
+"The referee disqualified the tennis players who a week ago the spectators from the upper stand approached at the end of the opening match. Therefore, the spectators approached the [MASK]",tennis,referee,long,mismatch
+"The referees disqualified the tennis players who a week ago the spectators from the upper stand approached at the end of the opening match. Therefore, the spectators approached the [MASK]",tennis,referees,long,match
+"The clerk found the bank managers that the robbers shot before the police arrived on the scene. Therefore, the robbers shot the [MASK]",bank,clerk,short,mismatch
+"The clerks found the bank managers that the robbers shot before the police arrived on the scene. Therefore, the robbers shot the [MASK]",bank,clerks,short,match
+"The clerk found the bank managers that this morning the armed and dangerous robbers shot before the police arrived at the scene. Therefore, the robbers shot the [MASK]",bank,clerk,long,mismatch
+"The clerks found the bank managers that this morning the armed and dangerous robbers shot before the police arrived at the scene. Therefore, the robbers shot the [MASK]",bank,clerks,long,match
 "The architect hated the brokers that the tenants trusted in the process of writing the contract. Therefore, the tenants trusted the [MASK]",brokers,architect,short,mismatch
 "The architects hated the brokers that the tenants trusted in the process of writing the contract. Therefore, the tenants trusted the [MASK]",brokers,architects,short,match
 "The architect hated the brokers that last year the careful and experienced tenants trusted in the process of writing the contract. Therefore, the tenants trusted the [MASK]",brokers,architect,long,mismatch

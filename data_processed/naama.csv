@@ -1,0 +1,81 @@
+prompt,label1,label2,distractor1,distractor2,dependency,animacy,match
+The actress who was in the French director's studio this week hit the expensive vase at the entrance. The [MASK] hit the vase.,actress,actress,director,director,S-V,animate,True
+The camera that was in the French director's studio this week hit the expensive vase at the entrance. The [MASK] hit the vase.,camera,camera,director,director,S-V,inanimate,False
+This is the actress who this week in the French director's studio hit the expensive vase at the entrance. The [MASK] hit the vase.,actress,actress,director,director,F-G,animate,True
+This is the camera that this week in the French director's studio hit the expensive vase at the entrance. The [MASK] hit the vase.,camera,camera,director,director,F-G,inanimate,False
+The student who was yesterday in the class of the lazy practitioner bored the members of the course. The [MASK] bored the class.,student,student,practitioner,practitioner,S-V,animate,True
+The assignment that was yesterday in the class of the lazy practitioner bored the members of the course. The [MASK] bored the class.,assignment,assignment,practitioner,practitioner,S-V,inanimate,False
+This is the student who yesterday in the class of the lazy practitioner bored the members of the course. The [MASK] bored the class.,student,student,practitioner,practitioner,F-G,animate,True
+This is the assignment that yesterday in the class of the lazy practitioner bored the members of the course. The [MASK] bored the class.,assignment,assignment,practitioner,practitioner,F-G,inanimate,False
+The baby who was in the young kindergartener's daycare today rolled around on the lawn. The [MASK] rolled on the lawn.,baby,baby,kindergarten,teacher,S-V,animate,True
+The cart that was in the young kindergartener's daycare today rolled over on the lawn. The [MASK] rolled on the lawn.,cart,cart,kindergarten,teacher,S-V,inanimate,False
+This is the baby who today in the young kindergartener's daycare rolled on the lawn. The [MASK] rolled on the lawn.,baby,baby,kindergarten,teacher,F-G,animate,True
+This is the cart that today in the young kindergartener's daycare rolled on the lawn. The [MASK] rolled on the lawn.,cart,cart,kindergarten,teacher,F-G,inanimate,False
+The saleswoman who was in the talented goldsmith's shop today excited the spendthrift customer. The [MASK] excited the customer.,saleswoman,saleswoman,goldsmith,goldsmith,S-V,animate,True
+The chain that was in the talented goldsmith's shop today excited the spendthrift customer. The [MASK] excited the customer.,chain,chain,goldsmith,goldsmith,S-V,inanimate,False
+This is the saleswoman who today in the talented goldsmith's shop excited the spendthrift customer. The [MASK] excited the customer.,saleswoman,saleswoman,goldsmith,goldsmith,F-G,animate,True
+This is the chain that today in the talented goldsmith's shop excited the spendthrift customer. The [MASK] excited the customer.,chain,chain,goldsmith,goldsmith,F-G,inanimate,False
+The girl who was at the red-haired comedian's wedding this week amazed all the guests. The [MASK] amazed the guests.,girl,girl,comedian,comedian,S-V,animate,True
+The cake that was at the red-haired comedian's wedding this week amazed all the guests. The [MASK] amazed the guests.,cake,cake,comedian,comedian,S-V,inanimate,False
+This is the girl who this week at the red-haired comedian's wedding amazed all the guests. The [MASK] amazed the guests.,girl,girl,comedian,comedian,F-G,animate,True
+This is the cake that this week at the red-haired comedian's wedding amazed all the guests. The [MASK] amazed the guests.,cake,cake,comedian,comedian,F-G,inanimate,False
+The nanny who was at the elderly grandmother's house this morning made her curly granddaughter sad. The [MASK] made her granddaughter sad.,nanny,nanny,grandmother,grandmother,S-V,animate,True
+The souvenir that was in the elderly grandmother's house this morning made the curly granddaughter sad. The [MASK] saddened the granddaughter.,souvenir,souvenir,grandmother,grandmother,S-V,inanimate,False
+This is the nanny who this morning at the elderly grandmother's house saddened her curly granddaughter. The [MASK] made her granddaughter sad.,nanny,nanny,grandmother,grandmother,F-G,animate,True
+This is the souvenir who this morning at the elderly grandmother's house saddened her curly granddaughter. The [MASK] saddened the granddaughter.,souvenir,souvenir,grandmother,grandmother,F-G,inanimate,False
+The fan who was in the English singer's room this morning made the band members happy. The [MASK] made the band members happy.,fan,fan,singer,singer,S-V,animate,True
+The picture that was in the English singer's room this morning made the members of the band happy. The [MASK] made the band members happy.,photo,photo,singer,singer,S-V,inanimate,False
+This is the fan who this morning in the room of the English singer made the members of the band happy. The [MASK] made the band members happy.,fan,fan,singer,singer,F-G,animate,True
+This is the picture that this morning in the room of the English singer made the members of the band happy. The [MASK] made the band members happy.,photo,photo,singer,singer,F-G,inanimate,False
+The nurse who was at the examination of the successful surgeon today reassured the worried patient. The [MASK] reassured the patient.,nurse,nurse,surgeon,surgeon,S-V,animate,True
+The result of today's examination by the successful surgeon reassured the worried patient. The [MASK] reassured the patient.,result,result,surgeon,surgeon,S-V,inanimate,False
+This is the nurse who today during the examination of the successful surgeon calmed down the worried patient. The [MASK] reassured the patient.,nurse,nurse,surgeon,surgeon,F-G,animate,True
+This is the result that today during the examination of the successful surgeon calmed down the worried patient. The [MASK] reassured the patient.,result,result,surgeon,surgeon,F-G,inanimate,False
+The usher who was at the young playwright's performance this evening confused the spectators who entered. The [MASK] confused the spectators.,bouncer,bouncer,playwright,playwright,S-V,animate,True
+The sign that was in the play of the young playwright this evening confused the spectators who entered. The [MASK] confused the viewers.,sign,sign,playwright,playwright,S-V,inanimate,False
+This is the usher who tonight at the play by the young playwright confused the spectators who came in. The [MASK] confused the spectators.,bouncer,bouncer,playwright,playwright,F-G,animate,True
+This is the sign that tonight at the play by the young playwright confused the spectators who came in. The [MASK] confused the viewers.,sign,sign,playwright,playwright,F-G,inanimate,False
+The apprentice who was in the office of the chatty minister at noon angered the veteran supervisor. The [MASK] angered the supervisor.,apprentice,apprentice,minister,minister,S-V,animate,True
+The report that was in the office of the chatty minister at noon angered the veteran inspector. The [MASK] angered the inspector.,report,report,minister,minister,S-V,inanimate,False
+This is the apprentice who in the office of the chatty minister at noon angered the old inspector. The [MASK] angered the supervisor.,apprentice,apprentice,minister,minister,F-G,animate,True
+This is the report that at noon in the office of the chatty minister angered the veteran inspector. The [MASK] angered the inspector.,report,report,minister,minister,F-G,inanimate,False
+The employee who was in the talented programmer's interview this morning annoyed the team leader. The [MASK] annoyed the team leader.,employee,employee,programmer,programmer,S-V,animate,True
+The test that was in the talented programmer's interview this morning annoyed the head of the team. The [MASK] annoyed the head of the team.,test,test,programmer,programmer,S-V,inanimate,False
+This is the employee who this morning in the interview of the talented programmer annoyed the head of the team. The [MASK] annoyed the team leader.,employee,employee,programmer,programmer,F-G,animate,True
+This is the test that this morning in the interview of the talented programmer annoyed the head of the team. The [MASK] annoyed the head of the team.,test,test,programmer,programmer,F-G,inanimate,False
+The dog that was in the care of the devoted boy this year has grown quite impressively. The [MASK] has grown impressively.,dog,dog,boy,boy,S-V,animate,True
+The pot that was in the care of the devoted boy this year grew quite impressively. The [MASK] grew impressively.,pot,pot,boy,boy,S-V,inanimate,False
+This is the dog that this year under the care of the devoted boy has grown quite impressively. The [MASK] has grown impressively.,dog,dog,boy,boy,F-G,animate,True
+This is the pot that this year under the care of the devoted boy has grown quite impressively. The [MASK] grew impressively.,pot,pot,boy,boy,F-G,inanimate,False
+The guitarist who was at the Italian composer's celebration tonight played the favorite song. The [MASK] played the song.,guitarist,guitarist,composer,composer,S-V,animate,True
+The loudspeaker that was at the Italian composer's celebration tonight played the favorite song. The [MASK] played the song.,speaker,speaker,composer,composer,S-V,inanimate,False
+This is the guitarist who tonight at the celebration of the Italian composer played the favorite. The [MASK] played the song.,guitarist,guitarist,composer,composer,F-G,animate,True
+This is the speaker that tonight at the celebration of the Italian composer played the favorite. The [MASK] played the song.,speaker,speaker,composer,composer,F-G,inanimate,False
+The girl who was in the kind teacher's class yesterday fell off the high round table. The [MASK] fell off the high round table.,girl,girl,teacher,teacher,S-V,animate,True
+The brochure that was in the kind teacher's class yesterday fell off the high round table. The [MASK] fell from the high round table.,pamphlet,pamphlet,teacher,teacher,S-V,inanimate,False
+This is the girl who yesterday in the kind teacher's class fell off the high round table. The [MASK] fell off the high round table.,girl,girl,teacher,teacher,F-G,animate,True
+This is the brochure that yesterday in the kind teacher's class fell off the high round table. The [MASK] fell from the high round table.,pamphlet,pamphlet,teacher,teacher,F-G,inanimate,False
+The dancer who was last night at the performance of the choreographer from Toronto embarrassed the director of the hall. The [MASK] embarrassed the manager of the hall.,dancer,dancer,choreographer,choreographer,S-V,animate,True
+The setting that was at last night's performance by the choreographer from Toronto embarrassed the director of the hall. The [MASK] embarrassed the director of the hall.,setting,setting,choreographer,choreographer,S-V,inanimate,False
+This is the dancer who last night at the performance of the choreographer from Toronto embarrassed the manager of the hall. The [MASK] embarrassed the manager of the hall.,dancer,dancer,choreographer,choreographer,F-G,animate,True
+This is the setting that last night at the performance of the choreographer from Toronto embarrassed the manager of the hall. The [MASK] embarrassed the director of the hall.,setting,setting,choreographer,choreographer,F-G,inanimate,False
+The model who was tonight at the designer's event from Paris impressed the enthusiastic crowd. The [MASK] impressed the enthusiastic audience.,model,model,designer,designer,S-V,animate,True
+The dress that was tonight at the designer's event from Paris impressed the enthusiastic crowd. The [MASK] impressed the enthusiastic crowd.,dress,dress,designer,designer,S-V,inanimate,False
+This is the model who tonight at the Paris-based designer's event impressed the enthusiastic crowd. The [MASK] impressed the enthusiastic audience.,model,model,designer,designer,F-G,animate,True
+This is the dress that tonight at the Paris-based designer's event impressed the enthusiastic crowd. The [MASK] impressed the enthusiastic crowd.,dress,dress,designer,designer,F-G,inanimate,False
+The pianist who was tonight at the impressive musician's competition moved the tough judges. The [MASK] moved the tough judges.,pianist,pianist,musician,musician,S-V,animate,True
+The composition that was tonight at the impressive musician's competition moved the tough judges. The [MASK] moved the tough judges.,piece,piece,musician,musician,S-V,inanimate,False
+This is the pianist who tonight in the competition of the impressive musician moved the tough judges. The [MASK] moved the tough judges.,pianist,pianist,musician,musician,F-G,animate,True
+This is the piece that tonight in the competition of the impressive musician moved the tough judges. The [MASK] moved the tough judges.,piece,piece,musician,musician,F-G,inanimate,False
+The journalist who was this evening at the leading candidate's conference convinced the undecided voters. The [MASK] convinced the undecided voters.,journalist,journalist,candidate,candidate,S-V,animate,True
+The presentation that was this evening at the leading candidate's conference convinced the undecided voters. The [MASK] convinced the undecided voters.,presentation,presentation,candidate,candidate,S-V,inanimate,False
+This is the journalist who tonight at the conference of the leading candidate convinced the undecided voters. The [MASK] convinced the undecided voters.,journalist,journalist,candidate,candidate,F-G,animate,True
+This is the presentation that tonight at the conference of the leading candidate convinced the undecided voters. The [MASK] convinced the undecided voters.,presentation,presentation,candidate,candidate,F-G,inanimate,False
+The commanding officer who was early in the morning in the senior officer's headquarters woke up the combat soldiers. The [MASK] woke up the combat soldiers.,headquarters,headquarters,officer,officer,S-V,animate,True
+The alarm that was early in the morning in the senior officer's headquarters woke up the combat soldiers. The [MASK] woke up the combat soldiers.,alarm,alarm,officer,officer,S-V,inanimate,False
+This is the commanding officer who in the morning in the senior officer's headquarters woke up the combat soldiers. The [MASK] woke up the combat soldiers.,headquarters,headquarters,officer,officer,F-G,animate,True
+This is the alarm that in the morning in the senior officer's headquarters woke up the combat soldiers. The [MASK] woke up the combat soldiers.,alarm,alarm,officer,officer,F-G,inanimate,False
+The witness who was this week in the hardened criminal's apartment incriminated the accomplice. The [MASK] incriminated the accomplice.,witness,witness,criminal,criminal,S-V,animate,True
+The evidence that was this week in the hardened criminal's apartment incriminated the accomplice. The [MASK] incriminated the accomplice.,evidence,evidence,criminal,criminal,S-V,inanimate,False
+This is the witness who this week in the hardened criminal's apartment incriminated the accomplice. The [MASK] incriminated the accomplice.,witness,witness,criminal,criminal,F-G,animate,True
+This is the evidence that this week in the hardened criminal's apartment incriminated the accomplice. The [MASK] incriminated the accomplice.,evidence,evidence,criminal,criminal,F-G,inanimate,False

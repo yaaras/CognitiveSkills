@@ -38,20 +38,37 @@ def calculate_accuracy(df, checkpoint):
 
 
 def main():
-    df = load_data('data_processed/niki.csv')
+    dataset_niki = {'name': 'niki',
+                    'filepath': 'data_processed/niki.csv',
+                    'seed': 0,
+                    'col1': 'plural_match',
+                    'col2': 'length'}
 
-    accuracies = []
-    seed = 0
-    list_of_checkpoints = get_checkpoints(seed)
+    dataset_ness = {'name': 'ness',
+                    'filepath': 'data_processed/naama.csv',
+                    'seed': 0,
+                    'col1': 'dependency',
+                    'col2': 'match'}
 
-    for checkpoint in list_of_checkpoints:
-        pt_model = load_model_and_tokenizer(checkpoint)
-        df = predict_masked_token_for_df(df, pt_model, checkpoint)
-        accuracy = calculate_accuracy(df, checkpoint)
-        print(checkpoint, accuracy)
-        accuracies.append(accuracy)
+    datasets = [dataset_niki, dataset_ness]
 
-    # plot_by_columns(df, col1, col2, title, x_label, y_label, num_of_checkpoints):
-    plot_by_columns(df, 'plural_match', 'length', 'Accuracy by Checkpoints', 'Checkpoints', 'Accuracy',
-                    len(list_of_checkpoints))
+    for dataset in datasets:
+        df = load_data(dataset['filepath'])
+
+        # Initialize the list of accuracies
+        accuracies = []
+        seed = dataset['seed']
+        list_of_checkpoints = get_checkpoints(seed)
+
+        # Predict the masked token for each checkpoint
+        for checkpoint in list_of_checkpoints:
+            pt_model = load_model_and_tokenizer(checkpoint)
+            df = predict_masked_token_for_df(df, pt_model, checkpoint)
+            accuracy = calculate_accuracy(df, checkpoint)
+            print(checkpoint, accuracy)
+            accuracies.append(accuracy)
+
+        # Plot the accuracies
+        plot_by_columns(df, dataset['col1'], dataset['col2'], 'Accuracy by Checkpoints', 'Checkpoints', 'Accuracy',
+                        len(list_of_checkpoints))
 

@@ -1,11 +1,3 @@
-# NLP Project
+# Analyzing Cognitive Skills in NLP: A Comparative Study of Model Predictions vs. Human Performance in Language Prediction Tasks
 
-## Data Preprocessing
-1. [x] niki @yaara
-2. [ ] naama @yaara
-3. [ ] gordon @mark
-
-## Model
-1. [ ] fix softmax for comparing distractor and label @itay
-2. [ ] load all checkpoints
-3. [ ] load seeds 0-6
+## Introduction

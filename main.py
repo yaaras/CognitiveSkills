@@ -1,4 +1,5 @@
 import pandas as pd
+from tqdm import tqdm
 from transformers import AutoTokenizer, BertForMaskedLM
 from helpers.model import *
 from helpers.utils import *
@@ -61,14 +62,16 @@ def main():
         list_of_checkpoints = get_checkpoints(seed)
 
         # Predict the masked token for each checkpoint
-        for checkpoint in list_of_checkpoints:
+        for checkpoint in tqdm(list_of_checkpoints):
             pt_model = load_model_and_tokenizer(checkpoint)
             df = predict_masked_token_for_df(df, pt_model, checkpoint)
             accuracy = calculate_accuracy(df, checkpoint)
-            print(checkpoint, accuracy)
             accuracies.append(accuracy)
 
         # Plot the accuracies
         plot_by_columns(df, dataset['col1'], dataset['col2'], 'Accuracy by Checkpoints', 'Checkpoints', 'Accuracy',
                         len(list_of_checkpoints))
 
+
+if __name__ == '__main__':
+    main()

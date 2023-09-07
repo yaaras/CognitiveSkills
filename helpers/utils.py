@@ -3,11 +3,15 @@ import seaborn as sns
 import matplotlib.pyplot as plt
 
 
-def plot_by_columns(df, col1, col2, title, x_label, y_label, num_of_checkpoints, humans=None):
+def plot_by_columns(df, col1, col2, metric, title, x_label, y_label, num_of_checkpoints, humans=None):
     # Group the data by the columns
     if humans is None:
         humans = {}
-    df_groupby = group_by(col1, col2, df)
+    if metric == 'acc':
+        df_groupby = group_by_acc(col1, col2, df)
+    else:
+        df_groupby = group_by_diff_prob(col1, col2, df)
+
     steps = np.arange(num_of_checkpoints)
 
     # Plot the data
@@ -27,6 +31,14 @@ def plot_by_columns(df, col1, col2, title, x_label, y_label, num_of_checkpoints,
     plt.show()
 
 
-def group_by(col1, col2, df):
+def group_by_acc(col1, col2, df):
     correct_cols = [col for col in df.columns if 'correct' in col]
     return df.groupby([col1, col2])[correct_cols].mean()
+
+def group_by_diff_prob(col1, col2, df):
+    diff_prob_cols = [col for col in df.columns if 'diff_prob' in col]
+    return df.groupby([col1, col2])[diff_prob_cols].mean()
+
+def group_by_entropy_diff (col1, col2, df):
+    diff_prob_cols = [col for col in df.columns if 'diff_prob' in col]
+    return df.groupby([col1, col2])[diff_prob_cols].mean()

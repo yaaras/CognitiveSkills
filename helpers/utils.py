@@ -3,8 +3,10 @@ import seaborn as sns
 import matplotlib.pyplot as plt
 
 
-def plot_by_columns(df, col1, col2, title, x_label, y_label, num_of_checkpoints):
+def plot_by_columns(df, col1, col2, title, x_label, y_label, num_of_checkpoints, humans=None):
     # Group the data by the columns
+    if humans is None:
+        humans = {}
     df_groupby = group_by(col1, col2, df)
     steps = np.arange(num_of_checkpoints)
 
@@ -14,6 +16,9 @@ def plot_by_columns(df, col1, col2, title, x_label, y_label, num_of_checkpoints)
     sns.lineplot(x=steps, y=df_groupby.iloc[1], label=df_groupby.index[1])
     sns.lineplot(x=steps, y=df_groupby.iloc[2], label=df_groupby.index[2])
     sns.lineplot(x=steps, y=df_groupby.iloc[3], label=df_groupby.index[3])
+
+    if humans:
+        sns.lineplot(x=steps, y=humans['correct'], label='humans')
 
     # Set the title and labels
     plt.title(title)

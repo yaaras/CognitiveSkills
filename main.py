@@ -43,15 +43,14 @@ def main():
                     'seed': 0,
                     'col1': 'plural_match',
                     'col2': 'length',
-                    'humans': {'match': 0.51, 'mismatch': 0.77}}
-
+                    'humans': {'match': 0.51, 'mismatch': 0.82}}
     dataset_ness = {'name': 'ness',
                     'filepath': 'data_processed/naama.csv',
                     'seed': 0,
                     'col1': 'dependency',
                     'col2': 'match',
-                    'humans': {'match': 0.51, 'mismatch': 0.77}}
-
+                    'humans': {'F-G, true': 0.70, 'F-G, false': 0.75,
+                               'S-V, true': 0.76, 'S-V, false': 0.70}}
     datasets = [dataset_niki, dataset_ness]
 
     for dataset in datasets:
@@ -60,7 +59,6 @@ def main():
         # Initialize the list of accuracies
         seed = dataset['seed']
         list_of_checkpoints = get_checkpoints(seed=seed)
-
         # Predict the masked token for each checkpoint
         for checkpoint in tqdm(list_of_checkpoints):
             pt_model = load_model_and_tokenizer(checkpoint)
@@ -68,11 +66,14 @@ def main():
 
         # Plot the accuracies
         plot_by_columns(df, dataset['col1'], dataset['col2'], 'acc', 'Accuracy by Checkpoints', 'Checkpoints',
-                        'Accuracy', len(list_of_checkpoints))
+                        'Accuracy', len(list_of_checkpoints), humans=dataset['humans'])
 
         plot_by_columns(df, dataset['col1'], dataset['col2'], 'diff_prob',
                         'The difference between label probability and distractor probability over Checkpoints',
                         'Checkpoints', 'Diff probability', len(list_of_checkpoints))
+
+        plot_by_columns(df, dataset['col1'], dataset['col2'], 'entropy', 'Entropy over Checkpoints', 'Checkpoints',
+                        'Entropy', len(list_of_checkpoints))
 
 if __name__ == '__main__':
     main()

@@ -56,7 +56,6 @@ def main():
 
     for dataset in datasets:
         df = load_data(dataset['filepath'])
-        x = 0
         # Initialize the list of accuracies
         seed = dataset['seed']
         list_of_checkpoints = get_checkpoints(seed=seed)
@@ -64,30 +63,18 @@ def main():
         for checkpoint in tqdm(list_of_checkpoints):
             pt_model = load_model_and_tokenizer(checkpoint)
             df = predict_masked_token_for_df(df, pt_model, checkpoint)
-            x += 1
-            if x == 10:
-                break
 
+
+        # Plot the accuracies
         plot_by_columns(df, dataset['col1'], dataset['col2'], 'acc', 'Accuracy by Checkpoints', 'Checkpoints',
-                        'Accuracy', x, humans=dataset['humans'])
+                        'Accuracy', len(list_of_checkpoints), humans=dataset['humans'])
 
         plot_by_columns(df, dataset['col1'], dataset['col2'], 'diff_prob',
                         'The difference between label probability and distractor probability over Checkpoints',
-                        'Checkpoints', 'Diff probability', x)
+                        'Checkpoints', 'Diff probability', len(list_of_checkpoints))
 
         plot_by_columns(df, dataset['col1'], dataset['col2'], 'entropy', 'Entropy over Checkpoints',
-                        'Checkpoints', 'Entropy', x)
-
-        # # Plot the accuracies
-        # plot_by_columns(df, dataset['col1'], dataset['col2'], 'acc', 'Accuracy by Checkpoints', 'Checkpoints',
-        #                 'Accuracy', len(list_of_checkpoints), humans=dataset['humans'])
-        #
-        # plot_by_columns(df, dataset['col1'], dataset['col2'], 'diff_prob',
-        #                 'The difference between label probability and distractor probability over Checkpoints',
-        #                 'Checkpoints', 'Diff probability', len(list_of_checkpoints))
-        #
-        # plot_by_columns(df, dataset['col1'], dataset['col2'], 'entropy', 'Entropy over Checkpoints',
-        #                 'Checkpoints', 'Entropy', len(list_of_checkpoints))
+                        'Checkpoints', 'Entropy', len(list_of_checkpoints))
 
 
 if __name__ == '__main__':

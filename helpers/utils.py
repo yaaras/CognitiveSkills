@@ -49,7 +49,7 @@ def df_diff_entropy(df):
 
 def calculate_entropy(column):
     df = pd.DataFrame({'x': column.values})
-    df['x_discretized'] = pd.qcut(df['x'], 10)
+    df['x_discretized'] = pd.qcut(df['x'], 5)
     bin_means = df.groupby('x_discretized', observed=False)['x'].mean().to_dict()
     df['x_discretized'] = df['x_discretized'].map(bin_means)
     column_disc = df['x_discretized']

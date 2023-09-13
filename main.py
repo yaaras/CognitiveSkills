@@ -31,8 +31,9 @@ def predict_masked_token_for_df(df, pt_model, checkpoint):
     top_prob_col = f'top_prob{step}'
     correct_col = f'correct{step}'
 
-    df[[pred_col,label_prob, distractor_prob, diff_prob, top_prob_col]] = df.apply(lambda row: pt_model.predict_masked_token(row), axis=1,
-                                            result_type="expand")
+    df[[pred_col, label_prob, distractor_prob, diff_prob, top_prob_col]] = df.apply(
+        lambda row: pt_model.predict_masked_token(row), axis=1,
+        result_type="expand")
     df[correct_col] = (df[pred_col] == df['label1']) | (df[pred_col] == df['label2'])
     return df
 
@@ -49,13 +50,13 @@ def main():
                     'seed': 0,
                     'col1': 'dependency',
                     'col2': 'match',
-                    'humans': {'F-G, true': 0.70, 'F-G, false': 0.75,
-                               'S-V, true': 0.76, 'S-V, false': 0.70}}
+                    'humans': {'F-G, true': 0.69, 'F-G, false': 0.75,
+                               'S-V, true': 0.76, 'S-V, false': 0.71}}
     datasets = [dataset_niki, dataset_ness]
 
     for dataset in datasets:
         df = load_data(dataset['filepath'])
-
+        x = 0
         # Initialize the list of accuracies
         seed = dataset['seed']
         list_of_checkpoints = get_checkpoints(seed=seed)
@@ -63,17 +64,31 @@ def main():
         for checkpoint in tqdm(list_of_checkpoints):
             pt_model = load_model_and_tokenizer(checkpoint)
             df = predict_masked_token_for_df(df, pt_model, checkpoint)
+            x += 1
+            if x == 10:
+                break
 
-        # Plot the accuracies
         plot_by_columns(df, dataset['col1'], dataset['col2'], 'acc', 'Accuracy by Checkpoints', 'Checkpoints',
-                        'Accuracy', len(list_of_checkpoints), humans=dataset['humans'])
+                        'Accuracy', x, humans=dataset['humans'])
 
         plot_by_columns(df, dataset['col1'], dataset['col2'], 'diff_prob',
                         'The difference between label probability and distractor probability over Checkpoints',
-                        'Checkpoints', 'Diff probability', len(list_of_checkpoints))
+                        'Checkpoints', 'Diff probability', x)
 
-        plot_by_columns(df, dataset['col1'], dataset['col2'], 'entropy', 'Entropy over Checkpoints', 'Checkpoints',
-                        'Entropy', len(list_of_checkpoints))
+        plot_by_columns(df, dataset['col1'], dataset['col2'], 'entropy', 'Entropy over Checkpoints',
+                        'Checkpoints', 'Entropy', x)
+
+        # # Plot the accuracies
+        # plot_by_columns(df, dataset['col1'], dataset['col2'], 'acc', 'Accuracy by Checkpoints', 'Checkpoints',
+        #                 'Accuracy', len(list_of_checkpoints), humans=dataset['humans'])
+        #
+        # plot_by_columns(df, dataset['col1'], dataset['col2'], 'diff_prob',
+        #                 'The difference between label probability and distractor probability over Checkpoints',
+        #                 'Checkpoints', 'Diff probability', len(list_of_checkpoints))
+        #
+        # plot_by_columns(df, dataset['col1'], dataset['col2'], 'entropy', 'Entropy over Checkpoints',
+        #                 'Checkpoints', 'Entropy', len(list_of_checkpoints))
+
 
 if __name__ == '__main__':
     main()

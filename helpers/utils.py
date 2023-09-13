@@ -1,7 +1,10 @@
+import math
+
 import numpy as np
 import pandas as pd
 import seaborn as sns
 import matplotlib.pyplot as plt
+from scipy.stats import differential_entropy, norm
 
 
 def plot_by_columns(df, col1, col2, metric, title, x_label, y_label, num_of_checkpoints, humans=None):
@@ -35,22 +38,47 @@ def plot_by_columns(df, col1, col2, metric, title, x_label, y_label, num_of_chec
     plt.ylabel(y_label)
     plt.show()
 
-def entropy(probabilities):
-    probabilities = probabilities / np.sum(probabilities)
-    return -np.sum(probabilities * np.log2(probabilities))
+
+def calculate_diff_entropy(column):
+    return differential_entropy(column)
+
+
+def df_diff_entropy(df):
+    return df.apply(calculate_diff_entropy)
+
+
+def calculate_entropy(column):
+    df = pd.DataFrame({'x': column.values})
+    df['x_discretized'] = pd.qcut(df['x'], 10)
+    bin_means = df.groupby('x_discretized', observed=False)['x'].mean().to_dict()
+    df['x_discretized'] = df['x_discretized'].map(bin_means)
+    column_disc = df['x_discretized']
+
+    # Calculate the probabilities
+    p = column_disc.value_counts() / len(column_disc)
+    # Calculate the entropy
+    entropy = -np.sum(p * np.log2(p))
+    return entropy
+
+
+def df_entropy(df):
+    return df.apply(calculate_entropy)
+
 
 def group_by_acc(col1, col2, df):
     correct_cols = [col for col in df.columns if 'correct' in col]
     return df.groupby([col1, col2])[correct_cols].mean()
 
+
 def group_by_diff_prob(col1, col2, df):
     diff_prob_cols = [col for col in df.columns if 'diff_prob' in col]
     return df.groupby([col1, col2])[diff_prob_cols].mean()
 
+
 def group_by_entropy_diff(col1, col2, df):
     diff_prob_cols = [col for col in df.columns if 'label_prob' in col]
     grouped = df.groupby([col1, col2])
-    entropy_results = grouped[diff_prob_cols].apply(lambda x: entropy(x))
-    mean_entropy_results = entropy_results.groupby(level=[0, 1], axis=0).mean()
+    entropy_results = grouped[diff_prob_cols].apply(df_entropy)
+    # mean_entropy_results = entropy_results.groupby(level=[0, 1], axis=0)
 
-    return mean_entropy_results
+    return entropy_results

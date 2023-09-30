@@ -49,8 +49,8 @@ def main():
                     'seed': 0,
                     'col1': 'dependency',
                     'col2': 'match',
-                    'humans': {'F-G, true': 0.70, 'F-G, false': 0.75,
-                               'S-V, true': 0.76, 'S-V, false': 0.70}}
+                    'humans': {'F-G, true': 0.69, 'F-G, false': 0.75,
+                               'S-V, true': 0.76, 'S-V, false': 0.71}}
     datasets = [dataset_niki, dataset_ness]
 
     for dataset in datasets:

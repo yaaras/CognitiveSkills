@@ -39,8 +39,8 @@ def predict_masked_token_for_df(df, pt_model, checkpoint):
 
 
 def main():
-    dataset_niki = {'name': 'niki',
-                    'filepath': 'data_processed/niki.csv',
+    dataset_koesterich = {'name': 'koesterich',
+                    'filepath': 'data_processed/koesterich.csv',
                     'seed': 0,
                     'col1': 'plural_match',
                     'col2': 'length',
@@ -52,7 +52,7 @@ def main():
                     'col2': 'match',
                     'humans': {'F-G, true': 0.69, 'F-G, false': 0.75,
                                'S-V, true': 0.76, 'S-V, false': 0.71}}
-    datasets = [dataset_niki, dataset_ness]
+    datasets = [dataset_koesterich, dataset_ness]
 
     for dataset in datasets:
         df = load_data(dataset['filepath'])

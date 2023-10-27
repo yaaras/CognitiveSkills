@@ -2,7 +2,7 @@ import pandas as pd
 from tqdm import tqdm
 from transformers import AutoTokenizer, BertForMaskedLM
 from helpers.model import *
-from helpers.utils import *
+from helpers.plot import *
 
 
 def load_data(filepath):
@@ -79,12 +79,12 @@ def main():
         #                 'Checkpoints', 'Entropy', x)
 
         # Plot the accuracies
-        plot_by_columns(df, dataset['col1'], dataset['col2'], 'acc', 'Accuracy by Checkpoints', 'Checkpoints',
-                        'Accuracy', len(list_of_checkpoints), humans=dataset['humans'])
-
-        plot_by_columns(df, dataset['col1'], dataset['col2'], 'diff_prob',
-                        'The difference between label probability and distractor probability over Checkpoints',
-                        'Checkpoints', 'Diff probability', len(list_of_checkpoints))
+        # plot_by_columns(df, dataset['col1'], dataset['col2'], 'acc', 'Accuracy by Checkpoints', 'Checkpoints',
+        #                 'Accuracy', len(list_of_checkpoints), humans=dataset['humans'])
+        #
+        # plot_by_columns(df, dataset['col1'], dataset['col2'], 'diff_prob',
+        #                 'The difference between label probability and distractor probability over Checkpoints',
+        #                 'Checkpoints', 'Diff probability', len(list_of_checkpoints))
 
         plot_by_columns(df, dataset['col1'], dataset['col2'], 'entropy', 'Entropy over Checkpoints',
                         'Checkpoints', 'Entropy', len(list_of_checkpoints))

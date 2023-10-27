@@ -1,5 +1,3 @@
-import math
-
 import numpy as np
 import pandas as pd
 import seaborn as sns
@@ -39,6 +37,51 @@ def plot_by_columns(df, col1, col2, metric, title, x_label, y_label, num_of_chec
     plt.show()
 
 
+
+def get_grouped_data(df, col1, col2, metric):
+    if metric == 'acc':
+        return group_by_acc(col1, col2, df)
+    elif metric == 'diff_prob':
+        return group_by_diff_prob(col1, col2, df)
+    elif metric == 'entropy':
+        return group_by_entropy_diff(col1, col2, df)
+    else:
+        raise ValueError('metric not implemented')
+
+
+def plot_on_axis(ax, df_groupby, steps, humans):
+    sns.lineplot(x=steps, y=df_groupby.iloc[0], label=df_groupby.index[0], ax=ax)
+    sns.lineplot(x=steps, y=df_groupby.iloc[1], label=df_groupby.index[1], ax=ax)
+    sns.lineplot(x=steps, y=df_groupby.iloc[2], label=df_groupby.index[2], ax=ax)
+    sns.lineplot(x=steps, y=df_groupby.iloc[3], label=df_groupby.index[3], ax=ax)
+
+    if humans:
+        for key, value in humans.items():
+            sns.lineplot(x=[0, len(steps) - 1], y=value, linestyle='--', label=f"Humans-{key}", ax=ax)
+
+
+def plot_on_subplot(df, col1, col2, metric, title, x_label, y_label, num_of_checkpoints, ax, humans=None, legend=False):
+    if humans is None:
+        humans = {}
+
+    df_groupby = get_grouped_data(df, col1, col2, metric)
+    steps = np.arange(num_of_checkpoints)
+
+    sns.lineplot(x=steps, y=df_groupby.iloc[0], label=df_groupby.index[0], ax=ax, legend=legend)
+    sns.lineplot(x=steps, y=df_groupby.iloc[1], label=df_groupby.index[1], ax=ax, legend=legend)
+    sns.lineplot(x=steps, y=df_groupby.iloc[2], label=df_groupby.index[2], ax=ax, legend=legend)
+    sns.lineplot(x=steps, y=df_groupby.iloc[3], label=df_groupby.index[3], ax=ax, legend=legend)
+
+    if humans:
+        for key, value in humans.items():
+            sns.lineplot(x=[0, len(steps) - 1], y=value, linestyle='--', label=f"Humans-{key}", ax=ax, legend=legend)
+
+    ax.set_title(title)
+    ax.set_xlabel(x_label)
+    ax.set_ylabel(y_label)
+
+
+
 def calculate_diff_entropy(column):
     return differential_entropy(column)
 
@@ -49,15 +92,13 @@ def df_diff_entropy(df):
 
 def calculate_entropy(column):
     df = pd.DataFrame({'x': column.values})
-    df['x_discretized'] = pd.qcut(df['x'], 5)
-    bin_means = df.groupby('x_discretized', observed=False)['x'].mean().to_dict()
-    df['x_discretized'] = df['x_discretized'].map(bin_means)
+    df['x_discretized'] = pd.cut(df['x'], bins=[0, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 1.0], include_lowest=True)
     column_disc = df['x_discretized']
-
-    # Calculate the probabilities
     p = column_disc.value_counts() / len(column_disc)
+    p[p == 0] = 1
+
     # Calculate the entropy
-    entropy = -np.sum(p * np.log2(p))
+    entropy = -np.sum(p * np.log10(p))
     return entropy
 
 

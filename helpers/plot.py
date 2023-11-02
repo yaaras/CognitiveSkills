@@ -37,7 +37,6 @@ def plot_by_columns(df, col1, col2, metric, title, x_label, y_label, num_of_chec
     plt.show()
 
 
-
 def get_grouped_data(df, col1, col2, metric):
     if metric == 'acc':
         return group_by_acc(col1, col2, df)
@@ -66,20 +65,23 @@ def plot_on_subplot(df, col1, col2, metric, title, x_label, y_label, num_of_chec
 
     df_groupby = get_grouped_data(df, col1, col2, metric)
     steps = np.arange(num_of_checkpoints)
+    colors = ['r', 'b', 'g', 'y']
 
-    sns.lineplot(x=steps, y=df_groupby.iloc[0], label=df_groupby.index[0], ax=ax, legend=legend)
-    sns.lineplot(x=steps, y=df_groupby.iloc[1], label=df_groupby.index[1], ax=ax, legend=legend)
-    sns.lineplot(x=steps, y=df_groupby.iloc[2], label=df_groupby.index[2], ax=ax, legend=legend)
-    sns.lineplot(x=steps, y=df_groupby.iloc[3], label=df_groupby.index[3], ax=ax, legend=legend)
+    sns.lineplot(x=steps, y=df_groupby.iloc[0], label=df_groupby.index[0], ax=ax, legend=legend, color=colors[0])
+    sns.lineplot(x=steps, y=df_groupby.iloc[1], label=df_groupby.index[1], ax=ax, legend=legend, color=colors[1])
+    sns.lineplot(x=steps, y=df_groupby.iloc[2], label=df_groupby.index[2], ax=ax, legend=legend, color=colors[2])
+    sns.lineplot(x=steps, y=df_groupby.iloc[3], label=df_groupby.index[3], ax=ax, legend=legend, color=colors[3])
 
     if humans:
+        i = 0
         for key, value in humans.items():
-            sns.lineplot(x=[0, len(steps) - 1], y=value, linestyle='--', label=f"Humans-{key}", ax=ax, legend=legend)
+            sns.lineplot(x=[0, len(steps) - 1], y=value, linestyle='--', label=f"Humans-{key}", ax=ax, legend=legend,
+                         color=colors[i])
+            i += 1
 
     ax.set_title(title)
     ax.set_xlabel(x_label)
     ax.set_ylabel(y_label)
-
 
 
 def calculate_diff_entropy(column):
@@ -92,7 +94,8 @@ def df_diff_entropy(df):
 
 def calculate_entropy(column):
     df = pd.DataFrame({'x': column.values})
-    df['x_discretized'] = pd.cut(df['x'], bins=[0, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 1.0], include_lowest=True)
+    df['x_discretized'] = pd.cut(df['x'], bins=[0, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 1.0],
+                                 include_lowest=True)
     column_disc = df['x_discretized']
     p = column_disc.value_counts() / len(column_disc)
     p[p == 0] = 1
